@@ -14,6 +14,16 @@ class Greetings1 extends React.Component{
             )
         }
     }
+    function Greetings2(){
+        // const names = props.names;
+        // const randomNum = Math.floor(Math.random() * names.length)
+        
+    
+        return (
+            <h1 className="text-center m-5 bg-primary text-white rounded-3">Greetings Page</h1>
+           
+        )
+    }
 
     function refreshPage() {
         location.reload();
@@ -26,7 +36,6 @@ class Greetings1 extends React.Component{
            
         )
     }
-
 
 const names = ['Sireesha','Nagireddy','Jane','Mike','David','Shawn','Bal','Brendan','Immaculate','Bruce','Yan','Walter','Benson','Artin','Audriana','Falguni']
 root.render([<Greetings2/>,<Greetings1 names={names}/>])

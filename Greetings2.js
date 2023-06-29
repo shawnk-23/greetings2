@@ -13,10 +13,6 @@ function Greetings2(props){
     )
 }
 
-<<<<<<< HEAD
-const names = ['Sireesha','Nagireddy','Jane','Mike','David','Shawn','Bal','Brendan','Immaculate','Bruce','Yan','Walter','Benson','Artin','Audriana']
-root.render(<Greetings2 names={names}/>)
-=======
 const names = ['Sireesha','Nagireddy','Jane','Mike','David','Shawn','Bal','Brendan','Immaculate','Bruce','Yan','Walter','Benson','Artin','Audriana','Falguni']
 root.render(<Greetings2 names={names}/>)
 >>>>>>> b3276f3 (combined class and functional components)
