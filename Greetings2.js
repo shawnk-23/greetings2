@@ -13,5 +13,5 @@ function Greetings2(props){
     )
 }
 
-const names = ['Sireesha','Nagireddy','Jane','Mike','David','Shawn','Bal','Brendan','Immaculate','Bruce','Yan','Walter','Benson','Audriana']
+const names = ['Sireesha','Nagireddy','Jane','Mike','David','Shawn','Bal','Brendan','Immaculate','Bruce','Yan','Walter','Benson','Artin','Audriana']
 root.render(<Greetings2 names={names}/>)
